@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO list</title>
+    <link rel="stylesheet" href="toDolist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="page">
+      <header>
+        <div class="head">
+          <div class="dotolist-title">
+            To-Do list App
+          </div>
+          <div class="input-bar">
+            <input type="text" id="inp" placeholder="write your task">
+          </div>
+          <button  class="save-icon fa fa-plus">ADD</button>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="uncompleteTask">
+              <div class="uncomplete-title">
+                <h2>UNcomplete task</h2>
+              </div>
+              <div class="uncompletelist">
+                <ol>
+                  <!--<li>task1 
+                    <span class="date-time">12-07-2023 09:56:50</span>
+                    <button class="checkbtn"><i class="fa fa-check" aria-hidden="true"></i></button>
+                    <button class="deletebtn"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                  </li>-->
+                </ol>
+              </div>
+          </div>
+          <div class="completeTask">
+              <div class="complete-title">
+                <h2>complete task</h2>
+              </div>
+              <div class="completelist">
+                <ol>
+               <!-- <li> task1 
+                    <span class="date-time">12-07-2023 09:56:50</span>
+                    <button class="deletebtn"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                  </li>-->
+                </ol>
+              </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  <script src="toDolist.js"></script>  
+</body>
+</html>
